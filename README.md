@@ -17,7 +17,7 @@ This project is a Laravel APIs application developed for a travel agency. It pro
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/your-repo.git
+   git clone https://github.com/yourusername/your-repo.git](https://github.com/AwsAboud/travel-api.git
 2. **Install Dependencies**:
     ```bash
    comoposer install
