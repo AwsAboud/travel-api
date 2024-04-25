@@ -9,16 +9,18 @@ This project is a Laravel APIs application developed for a travel agency. It pro
 - **Travel Management**: Provides endpoints for creating and updating travel details, including name, description, and tour information.
 - **Tour Management**: Allows for the creation of tours within a travel, specifying starting date, ending date, price, and additional notes.
 - **Public Endpoints**: Offers public endpoints for accessing a list of paginated travels and tours, with options for filtering by price, date range, and sorting options.
-- **Data Formatting**: Handles formatting of tour prices for display, dividing by 100 and returning as formatted currency.
 - **Testing**: Includes feature tests covering functionality of all endpoints, ensuring thorough testing of input validation, authentication, authorization, and response formats.
 
 
 ## Installation
 
 1. **Clone the Repository**:
+   
    ```bash
-   git clone https://github.com/yourusername/your-repo.git](https://github.com/AwsAboud/travel-api.git
+   git clone https://github.com/AwsAboud/travel-api.git
+
 2. **Install Dependencies**:
+   
     ```bash
    comoposer install
     
@@ -30,8 +32,11 @@ This project is a Laravel APIs application developed for a travel agency. It pro
       php artisan key:generate
 
 4. **Migrate Database**:
+   
    ```bash
    php artisan migrate
+
 5. **Start Server**:
+   
    ```bash
    php artisan serve
